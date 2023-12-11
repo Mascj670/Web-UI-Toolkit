@@ -1,0 +1,91 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.app-header, .color-selector, .mockup-page {
+    transition: background-color 0.3s ease; 
+}
+
+.color-selector {
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+#colorPicker, #generatePalette {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+#generatePalette {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.palette-display {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid white; 
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+.mockup-page {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+#mockupSection, #mockupFooter {
+    padding: 10px 0;
+}
+
+.mockup-page h1, .mockup-page p, .mockup-page button {
+    margin-bottom: 20px;
+}
+
+.mockup-page button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.color-picker-box {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+}
+
+.color-picker-box input[type="color"] {
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
